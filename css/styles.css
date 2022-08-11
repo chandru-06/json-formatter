@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header css starts here */
+
+header .container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .navbar span a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #007284;
+    text-decoration: none;
+}
+
+header .container .navbar .nav-links {
+    display: flex;
+}
+
+header .container .navbar ul li a {
+    color: #007284;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0px 5px 0px 0px;
+}
+
+header .container .navbar ul {
+    list-style: none;
+}
+
+header .container .navbar ul li a:focus {
+    color: #fff;
+    background-color: #007284;
+    border: 1px solid #007284;
+    transition: none;
+}
+
+/* header css ends here */
+
+.codingpart {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.codingpart .container .codearea {
+    position: relative;
+}
+
+.codingpart .container .codearea .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.codingpart .container .codearea .navbar span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 55px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 20px;
+}
+
+.codingpart .container .codearea .navbar .nav-links {
+    display: flex;
+}
+
+.codingpart .container .codearea .navbar ul li a {
+    color: #007284;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0px 5px 0px 0px;
+}
+
+.codingpart .container .codearea .navbar ul {
+    list-style: none;
+}
+
+.codingpart .container .codearea .navbar ul li a:focus {
+    color: #fff;
+    background-color: #007284;
+    border: 1px solid #007284;
+    transition: none;
+}
+
+#maininput {
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    position: absolute;
+    width: 100%;
+    height: 15rem;
+}
+
+
+/* Original code area ends here */
+
+/* Processed code area starts here */
+.codingpart .container .processed_codearea {
+    display: none;
+    margin-top: 15rem;
+    position: relative;
+}
+
+.codingpart .container .processed_codearea .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.codingpart .container .processed_codearea .navbar span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 55px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 20px;
+}
+
+.codingpart .container .processed_codearea .navbar .nav-links {
+    display: flex;
+}
+
+.codingpart .container .processed_codearea .navbar ul li a {
+    color: #007284;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0px 5px 0px 0px;
+}
+
+.codingpart .container .processed_codearea .navbar ul {
+    list-style: none;
+}
+
+.codingpart .container .processed_codearea .navbar ul li a:focus {
+    color: #fff;
+    background-color: #007284;
+    border: 1px solid #007284;
+    transition: none;
+}
+
+#maininput1 {
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    position: absolute;
+    width: 100%;
+    height: 15rem;
+}
+
+#succes_msgdiv {
+    margin-top: 16rem;
+}
+
+#succes_msg {
+
+    font-family: arial;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Processed code area ends here  */
+
+
+/* ace editor custom CSS */
+
+.ace_print-margin {
+    display: none;
+}
+
+/* ace editor custom CSS */
+
+/* About us content CSS */
+
+.about_us {
+    position: relative;
+    top: 2rem;
+    margin-bottom: 11rem;
+}
+
+.about_us .about_content{
+    text-align: center;
+}
+
+.about_us .about_content #heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #007284;
+    text-align: center;
+}
+
+.about_us .about_content .site_details .content_s {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: italic
+}
+
+/* About us content CSS */
+
+/* footer css */
+
+footer {
+    background-color: #007284;
+    padding: 30px 0px;
+    bottom: 0px;
+    position: relative;
+    width: 100%;
+}
+
+footer .container .copyrightinfo {
+    text-align: center;
+}
+
+footer .container .copyrightinfo span {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+/* Responsive css area starts */
+
+
+/* Mobile view (max-wdith:570px) */
+
+@media (max-width: 570px) {
+
+    header .container .navbar {
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    header .container .navbar span {
+        margin-bottom: 20px;
+    }
+
+    .codingpart .container .codearea .navbar {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .codingpart .container .processed_codearea {
+        margin-top: 20rem;
+    }
+
+    .codingpart .container .processed_codearea .navbar {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .ace_mobile-menu{
+        display: none;
+    }
+
+}
+
+
+/* Responsive css area Ends */
